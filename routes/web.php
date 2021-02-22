@@ -19,3 +19,11 @@ Route::get('/', function () {
 Route::get('/person/{f_name}/{l_name}', function ($f_name, $l_name) {
     return "Person: ".$f_name." ".$l_name;
 });
+
+Route::get('/student_id/{id}', "StudentController@showName");
+
+Route::get('/student_date/{date}', "StudentController@showBirthday");
+
+Route::get('/student_age/{age}', "StudentController@showAge");
+
+
