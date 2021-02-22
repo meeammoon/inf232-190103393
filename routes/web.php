@@ -26,4 +26,8 @@ Route::get('/student_date/{date}', "StudentController@showBirthday");
 
 Route::get('/student_age/{age}', "StudentController@showAge");
 
-
+/*
+srdtyjkddfgsjakj
+fghsjdhcjn
+kfjdvnlskv
+*/ 
